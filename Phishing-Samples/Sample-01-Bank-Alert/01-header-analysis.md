@@ -13,14 +13,14 @@ smtp.mailfrom=protonmail.com; dkim=timeout (key query timeout)
 header.d=protonmail.com;dmarc=pass action=none
 header.from=protonmail.com;compauth=pass reason=100
 Sender IP: 185.70.40.140
-
-MY ANALYSIS AND FINDINGS
+```
+##My Analysis And Findings
 1. The 'Reply-To' email address 'kellyellin426@proton.me' is inconsistent with the 'From' email address 'alerts@chase.com'.
 
 2. The 'Return-Path' domain proton.me is inconsistent with the 'From' domain chase.com.
 
 3. The IP location of the 'From' domain chase.com which is Washington, United States mismatches with the IP location of the 'Return-Path' domain proton.me which is Geneve,Switzerland.
 
-VERDICT: Malicious(Spoofed Sender)
+Verdict: Malicious(Spoofed Sender)
 
-RECOMMENDATION:
+Recommendation:
