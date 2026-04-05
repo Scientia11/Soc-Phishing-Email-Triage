@@ -16,6 +16,8 @@ Authentication-Results: spf=pass (sender IP is 69.169.224.12)
 ## Analysis
 1. The 'Return-Path' domain eu-central-1.amazonses.com is inconsistent with the 'From' domain auswestbc.com.au.
    
-2. This subject line '[Binance] Withdraw Successful - 2023-07-30 51:51:51(UTC)' contains “Withdraw Successful” which is not standard English. A legitimate service like Binance would not use an awkward phrasing.
+2. This subject line '[Binance] Withdraw Successful - 2023-07-30 51:51:51(UTC)' contains “Withdraw Successful”  is not standard English. A legitimate service like Binance would not use an awkward phrasing.
+
+3. The email claim to be coming from binance.com but the originating domain 'auswestbc.com.au' is inconsist with Binanc domain.
 
 Verdict: Highly Suspicious
