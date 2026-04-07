@@ -13,4 +13,15 @@ Authentication-Results: spf=softfail (sender IP is 202.129.206.234)
  smtp.mailfrom=suksapan.or.th; dkim=none (message not signed)
  header.d=none;dmarc=none action=none header.from=suksapan.or.th;compauth=fail
  reason=001
+X-Sender-IP: 202.129.206.234
 ```
+## Analysis
+1. The 'Reply-To' email address globalmeritexperts@gmail.com is inconsistent with the 'From' email address shore@suksapan.or.th.
+
+2. The SPF record published on the suksapan.or.th domain has a policy that designates the IP address 202.129.206.234 as probably not permitted to send emails on behalf of suksapan.or.th domain.
+
+3. 
+
+
+Verdict: Suspicious
+
