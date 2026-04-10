@@ -12,3 +12,7 @@ Authentication-Results: spf=pass (sender IP is 23.236.135.70)
  header.from=itariannotifications.com;compauth=pass reason=100
 ```
 
+## Analysis
+1. The 'From' email address "local-part sdv2-noreply" is inconsistent with the display-name Lido DAO provided in the email.
+
+2. 
